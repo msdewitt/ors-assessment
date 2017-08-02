@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #fafafa;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background: #fff;
+  padding: 10px;
+  height: 200px;
+}
+
+.input_container {
+  position: relative;
+}
+
+.input_text {
+  border: 1px solid #ccc;
+  height: 24px;
+  line-height: 24px;
+  width: 100%;
+  outline: none;
+  padding: 0 50px 0 4px;
+}
+
+.input_button {
+  position: absolute;
+  background: blue;
+  color: #fff;
+  right: 0px;
+  top: 0px;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 4px 0 4px;
+}
